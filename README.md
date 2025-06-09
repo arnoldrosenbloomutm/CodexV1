@@ -1,26 +1,40 @@
 # CodexV1
 
-This repository contains small Python code examples that demonstrate the distribution of outcomes for various probability experiments. Each example demonstrates a probability distribution.
+Collection of short probability demonstrations in Python. Each example shows the distribution of outcomes for a simple random process.
 
-## Running the coin-flip example
+## Quick start
 
 ### Requirements
 - Python 3 (3.8 or newer recommended)
 
-All Python dependencies are listed in `requirements.txt`. Install them with:
+Install the dependencies listed in `requirements.txt`:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-To run the coin-flip script:
+Run any example script from the `examples/` directory:
+
+```bash
+python3 examples/<script_name>.py
+```
+
+For instance, to run the coin-flip demonstration:
 
 ```bash
 python3 examples/coin_flip.py
 ```
 
-The script will simulate 100 flips in 1,000 trials, print the resulting counts and display a histogram of heads.
+The coin-flip script simulates 100 flips in 1,000 trials, prints the resulting counts and displays a histogram of heads.
 
 ## Examples directory
 
-All example scripts live in the `examples/` directory. These short programs are intended as educational references, so contributions of new examples or improvements are welcome. Feel free to open a pull request!
+All example scripts live in the `examples/` directory. These short programs are intended as educational references.
+
+## Contributing
+
+Contributions are welcome! Open an issue or pull request with your ideas, or see `CONTRIBUTING.md` (to be added) for detailed guidelines.
+
+## License
+
+This project will be released under the MIT License (see `LICENSE` when available). Please report issues or propose new demonstrations through the issue tracker.
