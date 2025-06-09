@@ -6,12 +6,11 @@ This repository contains small Python code examples that demonstrate the distrib
 
 ### Requirements
 - Python 3 (3.8 or newer recommended)
-- `matplotlib`
 
-If `matplotlib` is not installed, you can add it with pip:
+All Python dependencies are listed in `requirements.txt`. Install them with:
 
 ```bash
-pip install matplotlib
+pip install -r requirements.txt
 ```
 
 To run the coin-flip script:
