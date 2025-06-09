@@ -1,6 +1,6 @@
 # CodexV1
 
-This repository contains small Python code examples that demonstrate the distribution of outcomes for various probability experiments.
+This repository contains small Python code examples that demonstrate the distribution of outcomes for various probability experiments. Each example demonstrates a probability distribution.
 
 ## Running the coin-flip example
 
